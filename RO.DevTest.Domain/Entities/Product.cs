@@ -1,0 +1,7 @@
+using RO.DevTest.Domain.Abstract;
+
+public class Product : BaseEntity
+{
+    public string Name { get; set; }
+    public decimal Price { get; set; }
+}
